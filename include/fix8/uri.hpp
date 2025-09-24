@@ -556,7 +556,7 @@ public:
 			}
 		}
 		if (!ibase.has_any())
-			return 0;
+			return {};
 		if (ibase.has_any_authority())
 			ibase.clear<authority>();
 		if (ibase.has_userinfo() && ibase.has_any_userinfo())
